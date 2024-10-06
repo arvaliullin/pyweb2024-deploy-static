@@ -1,6 +1,7 @@
 # Welcome to MkDocs
 
-## Hello, world!
+## Практическая работа по создания и развертывания статического сайта
+
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
