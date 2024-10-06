@@ -19,4 +19,7 @@ source venv/bin/activate
 
 ```
 pip install mkdocs
+
+pip freeze > requirements.txt
+
 ```
