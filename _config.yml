@@ -1,1 +1,14 @@
-theme: jekyll-theme-minimal
+include:
+  - _layouts
+  - _includes
+  - assets
+
+title: "pyweb2024"
+description: "Выполнение практических работ"
+author: "Артур Валиуллин"
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+source: docs/reports

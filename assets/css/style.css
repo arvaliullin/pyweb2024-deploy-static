@@ -1,0 +1,67 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Typography */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #263238; /* Dark Slate Grey */
+  line-height: 1.6;
+  background-color: #f1f8e9; /* Light Green */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #1b5e20; /* Dark Green */
+  text-transform: capitalize;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+/* Links */
+a {
+  color: #388e3c; /* Green */
+  text-decoration: none;
+  transition: color 0.3s, border-bottom 0.3s;
+  border-bottom: 2px solid transparent;
+}
+
+a:hover {
+  color: #2e7d32; /* Darker Green */
+  border-bottom: 2px solid #2e7d32;
+  text-decoration: underline;
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  padding: 0.7rem 1.4rem;
+  background-color: #4caf50; /* Material Green */
+  color: white;
+  text-align: center;
+  border-radius: 25px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+  background-color: #43a047; /* Darker Green */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Containers */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #ffffff; /* White background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
