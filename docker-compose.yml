@@ -2,16 +2,14 @@ version: "3.8"
 
 services:
   app:
-    image: docker.io/arvaliullin/pyweb2024-image:v0.1
+    image: docker.io/arvaliullin/pyweb2024-app:v0.1
     ports:
       - "8082:8082"
     networks:
       - pyweb2024_network
 
   nginx:
-    build:
-      context: .
-      dockerfile: deployments/Dockerfile.nginx
+    image: docker.io/arvaliullin/pyweb2024-nginx:v0.1
     ports:
       - "8081:8081"
     depends_on:
